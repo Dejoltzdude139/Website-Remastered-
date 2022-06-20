@@ -150,7 +150,7 @@ max-height: 75%;
 min-height: 25%;
 background-color: #000000;
 border: 5px solid gold;
-opacity: 0.950006;
+opacity: 0.890006;
 transform: translate(-1%, 0)
 }
 div.transbox3 p {
@@ -231,7 +231,7 @@ margin: 0px;
 -webkit-text-stroke-width: 0.2929px;
 -webkit-text-stroke-color: black;
 cursor: pointer;
-opacity: 0.8999;
+opacity: 100.8999;
 position: relative;
 }
 /* Iframe display and wrapper */
