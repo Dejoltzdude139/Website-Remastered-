@@ -53,46 +53,46 @@ display: inline-block;
 .flex {
 display: flex;
 }
-li a, .dropbtn {
-display: inline-block;
-background-repeat: repeat-x;
-background-size: 8ch 100%;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-image: linear-gradient(to right, Red 0ch, Brown 1ch, Pink 1ch, Teal 2ch, Violet 2ch, Gold 3ch, Orange 3ch, Orange 4ch, Cyan 4ch, Violet 5ch, Gold 5ch, Green 6ch, #5b2979 6ch, Red 7ch);
-text-align: left;
-padding: 14px 16px;
-text-decoration: none;
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  font-size: 0.75vw;
+  border: none;
 }
-li a:hover, .dropdown:hover .dropbtn {
-background-color: cyan;
--webkit-background-clip: text;
--webkit-text-fill-color: lime;
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
-li.dropdown {
-display: inline-block;
-text-align: left;
-}
+
+/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-display: none;
-position: absolute;
-background-color: transparent;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
+  display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
+
+/* Links inside the dropdown */
 .dropdown-content a {
-color: black;
-padding: 12px 15.45px;
-text-decoration: none;
-display: block;
-text-align: right;
-transform: translate(0%, 0)
+  color: black;
+  padding: 1px 1px;
+  text-decoration: none;
+  display: inline-block;
 }
-.dropdown-content a:hover {background-color: #f1f1f1;}
-.dropdown:hover .dropdown-content {
-display: block;
-}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: inline-block; position: fixed;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 /* Should Assign the body size(s) */
 body {
 position: relative;
@@ -142,7 +142,7 @@ font-family: willowbodyregular;
 font-weight: bold;
 }
 div.transbox3 {
-text-align: center;
+text-align: left;
 margin: auto;
 max-width: 75%;
 min-width: 25%;
@@ -197,6 +197,23 @@ max-height: 100%;
 font-family: willowbodyregular;
 font-weight: bold;
 }
+div.transbox6 {
+text-align: left;
+margin: auto;
+max-width: 100%;
+max-height: 100%;
+background-color: #000000;
+border: 5px solid gold;
+opacity: 0.755;
+}
+div.transbox6 p {
+text-align: left;
+margin: auto;
+max-width: 100%;
+max-height: 100%;
+font-family: willowbodyregular;
+font-weight: bold;
+}
 button {
 font-family: willowbodyregular;
 font-weight: bold;
@@ -222,11 +239,11 @@ background-repeat: repeat-x;
 background-size: 8ch 100%;
 -webkit-text-fill-color: violet;
 background-color: white;
-padding: 1.5px 1.5px;
+padding: 0px 0px;
 text-align: center top;
 font-family: willowbodyregular;
 display: inline-block;
-font-size: 2.0vw;
+font-size: 1.0vw;
 margin: 0px;
 -webkit-text-stroke-width: 0.2929px;
 -webkit-text-stroke-color: black;
