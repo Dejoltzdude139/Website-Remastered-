@@ -224,16 +224,16 @@ opacity: 0.8999;
 }
 .GFG2 {
 background-color: #0000ffff;
-border: 2px solid black;
+border: 1px solid black;
 background-repeat: repeat-x;
 background-size: 8ch 100%;
 -webkit-text-fill-color: violet;
 background-color: white;
-padding: 0px 0px;
+padding: 5px 5px;
 text-align: center top;
 font-family: willowbodyregular;
 display: inline-block;
-font-size: 1.0vw;
+font-size: 1.075vw;
 margin: 0px;
 -webkit-text-stroke-width: 0.2929px;
 -webkit-text-stroke-color: black;
